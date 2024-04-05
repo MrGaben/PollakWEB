@@ -1,0 +1,125 @@
+/*
+Theme Name: WpTheme
+Theme URI: 
+Author: Heja Gabor
+Author URI: 
+Description: 
+Version: 1.0
+*/
+
+#primary-sidebar
+{
+    border-radius: 15px;
+    background-color: #7b45ad;
+}
+
+article {
+    color: #000;
+}
+
+#primary-sidebar a {
+    color: #FAD000
+}
+
+.home,
+.post-template-default {
+    background-color: #2D2B55;
+    color: #FFF;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.my-logo,
+footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 8px;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+    display: inline-block;
+}
+
+.primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #ececec;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.article-loop,
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+        width: 100%;
+    }
+}
+.sidebar {
+    width: 30%; 
+    color: #FFF;
+    float: right;
+}
+.sidebar a {
+
+    color: #ffffff5b;
+}
+
+.widget {
+    margin-bottom: 30px;
+}
+
+
+.widget ul li a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+
+.widget ul li {
+    margin-bottom: 10px;
+}
+
+.widget ul li a:hover {
+    color: #0099ff;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 25px;
+}
+
+.widget-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
